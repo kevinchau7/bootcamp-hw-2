@@ -340,14 +340,14 @@
       font-size: 7vw;
     }
    
+
     .flex-item {
-      display:block;
-      flex-wrap: nowrap;
+      flex-basis: calc(100% - 1em);
     }
     .flex-item:first-child {
       min-height: 150px;
       max-height: 150px;
-      flex-basis: calc(50% - 1em);
+      flex-basis: calc(100% - 1em);
     }
     .flex-item h3 {
       font-size: 0.8rem;
